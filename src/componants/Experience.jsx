@@ -14,7 +14,7 @@ function MyPortfolio() {
     <div name="experience" className="portfolio container mx-auto px-4 md:px-20 py-20">
       <h1 className='text-center'>Experience</h1>
       <hr className='About-hr' /><br />
-      <div className="row row-cols-1 row-cols-md-5 g-5">
+      <div className="experience row row-cols-1 row-cols-md-5 g-5">
         <div className="col">
           <div className=" cards my-card rounded-full border-[2px] item-center">
             <img src={htmllogo} className="card-img-top" alt="html" />
