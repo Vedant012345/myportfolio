@@ -191,6 +191,9 @@ hr{
       flex-wrap: nowrap;
       width: 125%;
     }
+      .experience.row.row-cols-1.row-cols-md-5.g-5 {
+      width: 75%;
+  }
   }
   
   
