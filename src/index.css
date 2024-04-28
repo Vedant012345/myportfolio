@@ -116,6 +116,10 @@ hr{
     .md\:pl-4 {
       padding-left: 0; /* Remove left padding */
     }
+       .md\:w-1\/2.md\:pl-4.flex.flex-col.justify-center { /*it is mendorary to aad in github*/
+      
+      margin-top: 20%;
+  }
   
     .icon-part {
       text-align: center; /* Center the icons */
