@@ -14,7 +14,7 @@ function MyPortfolio() {
   return (
     <div name="portfolio" className="portfolio container mx-auto px-4 md:px-20 py-20">
          <h1 className='text-center'>Portfolio</h1><hr className='About-hr' /><br />
-      <div className="row row-cols-1 row-cols-md-5 g-5">
+      <div className="portfolio row row-cols-1 row-cols-md-5 g-5">
         <div className="col">
           <div className="card my-card">
             <img src={Webdev} className="card-img-top" alt="Web Development" />
