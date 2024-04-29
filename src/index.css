@@ -122,6 +122,11 @@ hr{
       
       margin-top: 20%;
   }
+
+      .image.md\:w-1\/2.mb-4.md\:mb-0 {  {/* for set proper image in mobile device*/}
+    margin-right: 82%;
+    width: 111%;
+}
   
     .icon-part {
       text-align: center; /* Center the icons */
