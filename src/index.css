@@ -124,7 +124,7 @@ hr{
   }
 
       .image.md\:w-1\/2.mb-4.md\:mb-0 {  {/* for set proper image in mobile device*/}
-    margin-right: 82%;
+    margin-right: 100%;
     width: 111%;
 }
   
