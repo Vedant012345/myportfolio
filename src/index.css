@@ -133,7 +133,8 @@ hr{
     }
   
     .image {
-      margin-top: 20px; /* Add margin to separate image from text content */
+      margin-top: 20px;
+      margin-right: 100%;/* Add margin to separate image from text content */
     }
   }
 
