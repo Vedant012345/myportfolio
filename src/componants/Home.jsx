@@ -31,7 +31,7 @@ function Home() {
                 <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit" className="mr-4 mb-2"><FaLinkedin className="icon" size={24} /></a>
                 <a href="https://www.instagram.com/mr.vedupawar5/" className="mr-4 mb-2"><FaInstagram className="icon" size={24} /></a>
                 <a href="https://www.facebook.com/vedant.pawar.100483?mibextid=ZbWKwL" className="mr-4 mb-2"><FaFacebook className="icon" size={24} /></a>
-                <a href="/" className="mr-4 mb-2"><FaTelegram className="icon" size={24} /></a>
+                
               </div>
             </div>
             <div>
