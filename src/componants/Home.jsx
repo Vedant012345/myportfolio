@@ -1,5 +1,5 @@
 import React from 'react';
-import portfoliologo from '../../public/portfoliologo.jpg';
+import portfoliologo from '../../public/new logo.jpeg';
 import { FaLinkedin, FaInstagram, FaFacebook, FaTelegram } from 'react-icons/fa';
 import { FaJs, FaReact, FaNodeJs, FaPython, FaJava } from 'react-icons/fa';
 import { ReactTyped } from "react-typed";
