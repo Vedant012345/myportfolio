@@ -9,6 +9,7 @@ function Contact() {
     register,
     handleSubmit,
     formState: { errors },
+    reset // Adding the reset function from react-hook-form
   } = useForm();
   
   const onSubmit = async(data) => {
@@ -19,11 +20,11 @@ function Contact() {
     }
     try{
       await axios.post("https://getform.io/f/jbwxrwva",userInfo);
-      toast.success("your massege has been sent ")
-    }catch(error){
+      toast.success("Your message has been sent.");
+      reset(); // Resetting the form after successful submission
+    } catch(error) {
       console.log(error);
-      toast.error("someting wait wrong")
-
+      toast.error("Something went wrong.");
     }
   }
 
@@ -67,10 +68,9 @@ function Contact() {
                 <a href="https://www.facebook.com/vedant.pawar.100483?mibextid=ZbWKwL" className="mr-4 mb-2"><FaFacebook className="icon" size={30} /></a>
                 <a href="/" className="mr-4 mb-2"><FaTelegram className="icon" size={30} /></a>
               </div><br />
-              <p><FaRegCopyright className="icon" size={20} />2024. All rights reserved by Unknown coder.  </p>
+              <p><FaRegCopyright className="icon" size={20} />2024. All rights reserved by Unknown coder.  </p>
               <p>your thankfull < FaHeart className="heart" size={20} /></p>
       </div>
-    
     </div>
   );
 }
