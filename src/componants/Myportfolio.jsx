@@ -35,7 +35,7 @@ function MyPortfolio() {
             </div>
             <div className="card-footer d-flex justify-content-between">
               <a href="/"><button className="btn btn-primary">Project Preview</button></a>
-             <a href="https://github.com/Vedant012345/react-project"><button className="btn btn-secondary">Source Code</button></a>
+             <a href="https://github.com/Vedant012345/myportfolio"><button className="btn btn-secondary">Source Code</button></a>
             </div>
           </div>
         </div>
