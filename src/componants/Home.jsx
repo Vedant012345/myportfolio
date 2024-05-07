@@ -7,7 +7,7 @@ import { ReactTyped } from "react-typed";
 function Home() {
   return (
     <div name="home" className="home max-w-screen-2-1 container mx-auto px-4 md:px-20 py-20">
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row order-2 md:order-1">
         {/* Text content */}
         <div className="md:w-1/2 md:pl-4 flex flex-col justify-center">
           <span className="wellcome text-center md:text-left">Welcome to my portfolio</span><p></p>
@@ -47,7 +47,7 @@ function Home() {
           </div>
         </div>
         {/* Image on top for mobile, side-by-side for md and lg devices */}
-        <div className="image md:w-1/2 mb-4 md:mb-0">
+        <div className="image md:w-1/2 mb-4 md:mb-0 order-1">
           <img src={portfoliologo} alt="My Image" className="w-full" />
         </div>
       </div>
