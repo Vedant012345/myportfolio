@@ -108,7 +108,7 @@ function MyPortfolio() {
             </div>
           </div>
         </div>
-        {/* Add more cards as needed */}s
+        {/* Add more cards as needed */}
       </div><br /><br /><br /><hr className='About-hr'/>
     </div>
   );
