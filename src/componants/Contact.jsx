@@ -69,7 +69,7 @@ function Contact() {
                 <a href="/" className="mr-4 mb-2"><FaTelegram className="icon" size={30} /></a>
               </div><br />
               <p><FaRegCopyright className="icon" size={20} />2024. All rights reserved by Unknown coder.  </p>
-              <p>your thankfull < FaHeart className="heart" size={20} /></p>
+              <p>Thanku For Visiting < FaHeart className="heart" size={20} /></p>
       </div>
     </div>
   );
