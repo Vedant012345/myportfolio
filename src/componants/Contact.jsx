@@ -68,7 +68,7 @@ function Contact() {
                 <a href="https://www.facebook.com/vedant.pawar.100483?mibextid=ZbWKwL" className="mr-4 mb-2"><FaFacebook className="icon" size={30} /></a>
                 <a href="/" className="mr-4 mb-2"><FaTelegram className="icon" size={30} /></a>
               </div><br />
-              <p><FaRegCopyright className="icon" size={20} />2024. All rights reserved by Unknown coder.  </p>
+              <p><FaRegCopyright className="icon" size={20} />2024. All rights reserved by @Unknowncoder09.  </p>
               <p>Thanku For Visiting < FaHeart className="heart" size={20} /></p>
       </div>
     </div>
