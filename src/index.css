@@ -34,10 +34,9 @@ justify-content: space-between;
 img.w-full {
     margin-top: 10%;
     /*margin-right: 5%;*/
-    margin-left: 52%;
+    margin-left: 20%;
     margin-bottom: 10%;
     border-radius: 50%;
-    width:85%;
     
 }
 /* image styling */
@@ -104,6 +103,16 @@ hr{
   
   /* Media query for devices with a max width of 768px */
   @media only screen and (max-width: 768px) {
+
+      img.w-full {
+    margin-top: 10%;
+    /*margin-right: 5%;*/
+    margin-left: 52%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    width:85%;
+    
+}
 
        .navbar{
       margin-right: 35%;
