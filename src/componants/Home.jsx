@@ -24,8 +24,8 @@ function Home() {
             Currently pursuing my education at Shri Shivaji Science College in Amaravati,
             I am deeply immersed in honing my skills and expanding my knowledge base.</p>
           <br />
-          <div className="icon-part">
-            <div>
+          <div className="icon-part flex flex-col justify-center">
+            <div className="mb-3">
               <h2>Available on</h2>
               <div className="flex flex-wrap justify-start items-center">
                 <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit" className="mr-4 mb-2"><FaLinkedin className="icon" size={24} /></a>
@@ -34,7 +34,7 @@ function Home() {
                 
               </div>
             </div>
-            <div>
+            <div className="mb-3">
               <h2>Currently working on</h2>
               <div className="flex flex-wrap justify-start items-center">
                 <FaJs className="icon mr-4 mb-2 md:text-3x1 hover:scale-110 round-full" size={24} />
