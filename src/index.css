@@ -34,9 +34,10 @@ justify-content: space-between;
 img.w-full {
     margin-top: 10%;
     /*margin-right: 5%;*/
-    margin-left: 20%;
+    margin-left: 52%;
     margin-bottom: 10%;
     border-radius: 50%;
+    width:85%;
     
 }
 /* image styling */
